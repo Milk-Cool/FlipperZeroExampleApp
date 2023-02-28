@@ -2,7 +2,7 @@ App(
     appid="example_app_milkcool", # App ID
     name="Example", # App name, displayed in app menu
     apptype=FlipperAppType.EXTERNAL, # Always FlipperAppType.EXTERNAL for external plugins
-    entry_point="example_app_milkcool_main", // Main function in your C file
+    entry_point="example_app_milkcool_main", # Main function in your C file
     requires=["gui"],
     stack_size=1 * 1024, # How much memory is allocated for the stack, here it's 1KB
     fap_category="Examples", # App category
